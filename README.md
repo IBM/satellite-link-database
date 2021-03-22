@@ -47,6 +47,8 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 
 - Create a [Databases for PostgreSQL](https://cloud.ibm.com/catalog/services/databases-for-postgresql) service.
 
+- Choose `Databases for PostgreSQL`. Click on `Create`.
+
 - Name your database and click on `Create`.
 
 - Once the service is ready, click on "Service credentials" in the navigation pane and select the "New credential" option and create credentials. Copy `Host` url and `Port` number. .
@@ -99,7 +101,6 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 
 With IBM cloud satellite you can quickly address unforeseen challenges, leverage cloud benefits in any location and innovate quickly anytime anywhere.
 
-## Summary
 State any closing remarks about the task or goal you described and its importance. Reiterate specific benefits the reader can expect from completing your tutorial. Recommend a next step (with link if possible) where they can continue to expand their skills after completing your tutorial.
 
 ## Related links
