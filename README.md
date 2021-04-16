@@ -1,17 +1,16 @@
-# satellite-link-database
-
-In this tutorial you will learn, how to link a database service on IBM Cloud to your IBM Cloud Satellite location and verify the connection by sending the data to store.
-
-# [Title]
+# Hands-on: Connect and communicate with a service on IBM Cloud from Satellite location using Satellite Link endpoints
 
 ## Introduction
-State the purpose of your tutorial, your intended audience, and the benefits readers can gain from it. Aim to grab the reader’s interest quickly, using terms they are likely to search on and relate to.
+
+The purpose of this tutorial is to give a hands-on experience of IBM Cloud Satellite and Satellite Link endpoints. With the help of Satellite Link endpoints, we can connect to a service, server, or app that runs outside of the location from a client that runs in your Satellite location, or vice-versa. In this tutorial you will learn, how to link a database service on IBM Cloud to your IBM Cloud Satellite location and verify the connection by sending the data and receiving the data.
 
 ## Prerequisites
-List or describe any skills, tools, experience, or specific conditions required to perform the tutorial. Include version levels for any required tools or platforms. Include links to necessary resources whenever possible.
+
+[IBM Cloud Account](https://cloud.ibm.com/)
 
 ## Estimated time
-Provide guidance on how long it will reasonably take to complete the steps under normal circumstances.
+
+It will take you approximately 30 minutes to complete this tutorial.
 
 ## Steps
 
@@ -76,6 +75,8 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 
 - It takes few moments to create an endpoint. Once the endpint is created, you can view it under Endpoints as shown below.
 ![](images/p7.png)
+
+>> Note: You can follow the same procedure for other services on IBM Cloud.
 
 #### 5. Create the OpenShift Cluster that will live on your satellite location
 
