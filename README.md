@@ -78,13 +78,13 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 
 >> Note: You can follow the same procedure for other services on IBM Cloud.
 
-#### 5. Create the OpenShift Cluster that will live on your satellite location
+#### 5. Create the OpenShift Cluster that will live on your satellite location and deploy the application
 
 - Here we create the OpenShift cluster that will live on your satellite location. 
 
 - Follow the steps in this [link](https://cloud.ibm.com/docs/satellite?topic=openshift-satellite-clusters#satcluster-create-console) to create OpenShift clusters on Satellite from the console.
 
-- Now you can deploy an application that takes in data from the IoT sensors and data from CCTVs in your factory environment, send that data to IBM Watson services for processing and store it in Db2 database. All of this in your location. This way you can reduce latency and effectively warn someone if they are found without safety gear.
+- Now you can deploy an application of your choice. - If you dont have any application that require a database, follow the next step.
 
 #### 6. Send data to PostgreSQL database using the Satellite endpoint
 
@@ -92,9 +92,9 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 
 - Copy the `username` and `password` from the credentials that you created in step 4. 
 
-- Paste the above copied parameters in the notebook.
+- Goto [this](https://github.com/IBM/satellite-link-example) sample and follow the steps
 
-- Run the notebook.
+- Run the application and send/receive data via `Satellite endpoint`.
 
 ![](images/satellite.png)
 
