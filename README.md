@@ -42,7 +42,6 @@ It will take you approximately 30 minutes to complete this tutorial.
 A cloud endpoint allows you to securely connect to a service, server, or app that runs outside of the location from a client within your Satellite location.
 
 <b>Create the Service</b>
-- Here we create IBM DB2 on cloud database service to store the data.
 
 - Create a [Databases for PostgreSQL](https://cloud.ibm.com/catalog/services/databases-for-postgresql) service.
 
@@ -64,7 +63,7 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 - Select `Cloud` and click on next.
 ![](images/p3.png)
 
-- Enter an `Endpoint name`. In `Destinaion URL or IP` paste the host name that you copied when you created the Db2 service cerdentials . In `Destination port` paste the port number that you copied when you created Db2 service credentials.
+- Enter an `Endpoint name`. In `Destinaion URL or IP` paste the host name that you copied when you created the PostgreSQL service cerdentials . In `Destination port` paste the port number that you copied when you created PostgreSQL service credentials.
 ![](images/p4.png)
 
 - Leave the default value and click on `Next` as shown below.
