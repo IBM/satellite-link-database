@@ -103,4 +103,5 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 With IBM cloud satellite you can quickly address unforeseen challenges, leverage cloud benefits in any location and innovate quickly anytime anywhere.
 
 ## Related links
+Now that you know how a satellite link works, try something more complex. Check out the following code pattern that helps you build an IoT application at your location uisng IBM Cloud Pak for Data and IBM Cloud Satellite. 
 [Monitor and Analyze IoT data at your location using IBM Cloud Satellite and IBM Cloud Pak for Data](https://github.ibm.com/raravi86/Satellite-IoT)
