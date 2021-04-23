@@ -102,7 +102,5 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 
 With IBM cloud satellite you can quickly address unforeseen challenges, leverage cloud benefits in any location and innovate quickly anytime anywhere.
 
-State any closing remarks about the task or goal you described and its importance. Reiterate specific benefits the reader can expect from completing your tutorial. Recommend a next step (with link if possible) where they can continue to expand their skills after completing your tutorial.
-
 ## Related links
 [Monitor and Analyze IoT data at your location using IBM Cloud Satellite and IBM Cloud Pak for Data](https://github.ibm.com/raravi86/Satellite-IoT)
