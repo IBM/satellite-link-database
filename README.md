@@ -87,6 +87,10 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 
 #### 6. Send data to PostgreSQL database using the Satellite endpoint
 
+>> Note: Make sure that your satellite endpoint is enabled as shown below. If the endpoint is not enabled you will not be able to send or receive data using the endpoint.
+
+![](images/p9.png)
+
 - Copy the `Satellite endpoint` link that you created in step 4.
 
 - Copy the `username` and `password` from the credentials that you created in step 4. 
@@ -94,6 +98,7 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 - Goto [this](https://github.com/IBM/satellite-link-example) sample and follow the steps
 
 - Run the application and send/receive data via `Satellite endpoint`.
+
 
 ![](images/satellite.png)
 
