@@ -89,7 +89,7 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 
 >> Note: Make sure that your satellite endpoint is enabled as shown below. If the endpoint is not enabled you will not be able to send or receive data using the endpoint.
 
-![](images/p9.png)
+![](images/endpoints.png)
 
 - Copy the `Satellite endpoint` link that you created in step 4.
 
