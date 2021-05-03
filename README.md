@@ -169,7 +169,7 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 
 - Follow the steps in this [link](https://cloud.ibm.com/docs/satellite?topic=openshift-satellite-clusters#satcluster-create-console) to create OpenShift clusters on Satellite from the console.
 
-- Now you can deploy an application of your choice. - If you dont have any application that require a database, follow the next step.
+- Now you can deploy an application of your choice. - If you don't have any application that require a database, follow the next step.
 
 #### 6. Send data to PostgreSQL database using the Satellite endpoint
 
@@ -193,6 +193,6 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 With IBM cloud satellite you can quickly address unforeseen challenges, leverage cloud benefits in any location and innovate quickly anytime anywhere.
 
 ## Related links
-Now that you know how a satellite link works, try something more complex. Check out the following code pattern that helps you build an IoT application at your location uisng IBM Cloud Pak for Data and IBM Cloud Satellite. 
+Now that you know how a satellite link works, try something more complex. Check out the following code pattern that helps you build an IoT application at your location using IBM Cloud Pak for Data and IBM Cloud Satellite. 
 <br>
 [Monitor and Analyze IoT data at your location using IBM Cloud Satellite and IBM Cloud Pak for Data](https://github.ibm.com/raravi86/Satellite-IoT)
