@@ -149,7 +149,7 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 - Select `Cloud` and click on next.
 ![](images/p3.png)
 
-- Enter an `Endpoint name`. In `Destinaion URL or IP` paste the host name that you copied when you created the PostgreSQL service cerdentials . In `Destination port` paste the port number that you copied when you created PostgreSQL service credentials.
+- Enter an `Endpoint name`. In `Destination URL or IP` paste the host name that you copied when you created the PostgreSQL service credentials . In `Destination port` paste the port number that you copied when you created PostgreSQL service credentials.
 ![](images/p4.png)
 
 - Leave the default value and click on `Next` as shown below.
@@ -158,7 +158,7 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 - Click on `Create endpoint` as shown below.
 ![](images/p6.png)
 
-- It takes few moments to create an endpoint. Once the endpint is created, you can view it under Endpoints as shown below.
+- It takes few moments to create an endpoint. Once the endpoint is created, you can view it under Endpoints as shown below.
 ![](images/p7.png)
 
 >> Note: You can follow the same procedure for other services on IBM Cloud.
