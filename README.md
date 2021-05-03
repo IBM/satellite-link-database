@@ -7,7 +7,9 @@ authors:
    email: "raravi86@in.ibm.com"
  - name: "Amol Dhondse"
    email: "amol.dhondse@in.ibm.com"
- - name: "Manjula G. Hosurmath"
+ - name: "Srikanth Manne"
+   email: "srikanth.manne@in.ibm.com"
+- name: "Manjula G. Hosurmath"
    email: "mhosurma@in.ibm.com"
 
 completed_date: 2021-05-03
@@ -195,4 +197,4 @@ With IBM cloud satellite you can quickly address unforeseen challenges, leverage
 ## Related links
 Now that you know how a satellite link works, try something more complex. Check out the following code pattern that helps you build an IoT application at your location using IBM Cloud Pak for Data and IBM Cloud Satellite. 
 <br>
-[Monitor and Analyze IoT data at your location using IBM Cloud Satellite and IBM Cloud Pak for Data](https://github.ibm.com/raravi86/Satellite-IoT)
+[Monitor and Analyze IoT data at your location using IBM Cloud Satellite and IBM Cloud Pak for Data](https://github.com/IBM/satellite-iot)
