@@ -9,7 +9,7 @@ authors:
    email: "amol.dhondse@in.ibm.com"
  - name: "Srikanth Manne"
    email: "srikanth.manne@in.ibm.com"
-- name: "Manjula G. Hosurmath"
+ - name: "Manjula G. Hosurmath"
    email: "mhosurma@in.ibm.com"
 
 completed_date: 2021-05-03
