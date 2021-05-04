@@ -104,10 +104,12 @@ It will take you approximately 30 minutes to complete this tutorial.
 
 #### 1. Create a Satellite location in IBM Cloud.
 
-- From the [Satellite Locations dashboard](https://cloud.ibm.com/satellite/locations), click Create location. A location represents a data center that you can fill with your own infrastructure resources to run IBM Cloud services or other workloads on your own infrastructure.
+A location represents a data center that you can fill with your own infrastructure resources to run IBM Cloud services or other workloads on your own infrastructure.
+
+- From the [Satellite Locations dashboard](https://cloud.ibm.com/satellite/locations), click Create location. 
 - Enter a name and an optional description for your location.
-- Select the IBM Cloud region that you want to use to manage your location. For more information about why you must select an IBM Cloud region, see [About IBM Cloud regions for Satellite](https://cloud.ibm.com/docs/satellite?topic=satellite-sat-regions#understand-supported-regions). Make sure to select the region that is closest to where your host machines physically reside that you plan to add to your Satellite location to ensure low network latency between your Satellite location and IBM Cloud.
-- Click Create location. When you create the location, a location master is deployed to one of the zones that are located in the IBM Cloud region that you selected.
+- Select the IBM Cloud region that you want to use to manage your location.
+- Click Create location. 
 
 #### 2. Attaching hosts from on-premises data centers and edge networks
 
@@ -186,7 +188,6 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 - Goto [this](https://github.com/IBM/satellite-link-example) sample and follow the steps
 
 - Run the application and send/receive data via `Satellite endpoint`.
-
 
 ![](images/satellite.png)
 
