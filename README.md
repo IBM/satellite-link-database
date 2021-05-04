@@ -145,25 +145,25 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 
 <b>Link the Service to your satellite</b>
 - Click on `Link Endpoints` tab.
-![](images/p1.png)
+<img src="images/p1.png" alt="Link Endpoints" width="800" height="300" border="10" />
 
 - Click on `Create on Endpoint` as shown below.
-![](images/p2.png)
+<img src="images/p2.png" alt="Create on Endpoint" width="800" border="10" />
 
 - Select `Cloud` and click on next.
-![](images/p3.png)
+<img src="images/p3.png" alt="Select Cloud" width="800" border="10" />
 
 - Enter an `Endpoint name`. In `Destination URL or IP` paste the host name that you copied when you created the PostgreSQL service credentials . In `Destination port` paste the port number that you copied when you created PostgreSQL service credentials.
-![](images/p4.png)
+<img src="images/p4.png" alt="Fill details that you copied from credentials" width="800" border="10" />
 
 - Leave the default value and click on `Next` as shown below.
-![](images/p5.png)
+<img src="images/p5.png" alt="Next" width="800" border="10" />
 
 - Click on `Create endpoint` as shown below.
-![](images/p6.png)
+<img src="images/p6.png" alt="Create endpoint" width="800" border="10" />
 
 - It takes few moments to create an endpoint. Once the endpoint is created, you can view it under Endpoints as shown below.
-![](images/p7.png)
+<img src="images/p7.png" alt="Endpoint dashboard" width="800" border="10" />
 
 >> Note: You can follow the same procedure for other services on IBM Cloud.
 
@@ -179,7 +179,7 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 
 >> Note: Make sure that your satellite endpoint is enabled as shown below. If the endpoint is not enabled you will not be able to send or receive data using the endpoint.
 
-![](images/endpoints.png)
+<img src="images/endpoints.png" alt="Enable the satellite endpoint" width="800" border="10" />
 
 - Copy the `Satellite endpoint` link that you created in step 4.
 
@@ -189,7 +189,7 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 
 - Run the application and send/receive data via `Satellite endpoint`.
 
-![](images/satellite.png)
+<img src="images/satellite.png" alt="View the data flow" width="800" border="10" />
 
 ## Summary
 
