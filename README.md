@@ -127,11 +127,19 @@ A location represents a data center that you can fill with your own infrastructu
 - Repeat these steps for each host. Make sure that you assign each host to a different zone so that you spread all three hosts across all three zones, such as `zone-1`, `zone-2`, and `zone-3`.
 - From the Hosts tab, verify that your hosts are successfully assigned to the Satellite control plane. The assignment is successful when an IP address is added to your host and the Health status changes to Normal.
 
-#### 4. Create PostgreSQL database and link it to IBM Cloud Satellite
+#### 4. Create the OpenShift Cluster that will live on your satellite location
+
+- Here we create the OpenShift cluster that will live on your satellite location. 
+
+- Follow the steps in this [link](https://cloud.ibm.com/docs/satellite?topic=openshift-satellite-clusters#satcluster-create-console) to create OpenShift clusters on Satellite from the console.
+
+- Now you can deploy an application of your choice.
+
+#### 5. Create PostgreSQL database and link it to IBM Cloud Satellite
 
 A cloud endpoint allows you to securely connect to a service, server, or app that runs outside of the location from a client within your Satellite location.
 
-<b>Create the Service</b>
+#### 5.1 Create the Service
 
 - Create a [Databases for PostgreSQL](https://cloud.ibm.com/catalog/services/databases-for-postgresql) service.
 
@@ -143,7 +151,8 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 
 - These service credentials will be used to create an Endpoint Link for the Satellite location.
 
-<b>Link the Service to your satellite</b>
+#### 5.2 Link the Service to your satellite
+
 - Click on `Link Endpoints` tab.
 <img src="images/p1.png" alt="Link Endpoints" width="800" height="300" border="10" />
 
@@ -167,23 +176,15 @@ A cloud endpoint allows you to securely connect to a service, server, or app tha
 
 >> Note: You can follow the same procedure for other services on IBM Cloud.
 
-#### 5. Create the OpenShift Cluster that will live on your satellite location and deploy the application
-
-- Here we create the OpenShift cluster that will live on your satellite location. 
-
-- Follow the steps in this [link](https://cloud.ibm.com/docs/satellite?topic=openshift-satellite-clusters#satcluster-create-console) to create OpenShift clusters on Satellite from the console.
-
-- Now you can deploy an application of your choice. - If you don't have any application that require a database, follow the next step.
-
 #### 6. Send data to PostgreSQL database using the Satellite endpoint
 
 >> Note: Make sure that your satellite endpoint is enabled as shown below. If the endpoint is not enabled you will not be able to send or receive data using the endpoint.
 
 <img src="images/endpoints.png" alt="Enable the satellite endpoint" width="800" border="10" />
 
-- Copy the `Satellite endpoint` link that you created in step 4.
+- Copy the `Satellite endpoint` link that you created in <b>step 5.2</b>.
 
-- Copy the `username` and `password` from the credentials that you created in step 4. 
+- Copy the `username` and `password` from the credentials that you created in <b>step 5.1</b>. 
 
 - Goto [this](https://github.com/IBM/satellite-link-example) sample and follow the steps
 
